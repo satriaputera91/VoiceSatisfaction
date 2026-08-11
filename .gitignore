@@ -1,0 +1,28 @@
+# Environment variables and secrets (NEVER commit these)
+.env
+.env.local
+*.env
+
+# Dependencies (Can be re-installed automatically)
+node_modules/
+vendor/
+
+# venv
+.venv/
+venv/
+
+# Build outputs and logs
+dist/
+build/
+*.log
+npm-debug.log*
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE and Code Editor configurations
+.vscode/
+.idea/
+*.suo
+*.ntvs*
